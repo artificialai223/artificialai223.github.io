@@ -30,7 +30,7 @@
       <meta name="MobileOptimized" content="320">
       <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
       <meta https-equiv="cleartype" content="on">
-      <title>Status Page</title>
+      <title>EnderRails Status Page</title>
       <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&subset=latin" rel="stylesheet" type="text/css">
       <link rel="stylesheet" href="https://demo.cachethq.io/build/dist/css/all-81fdbf996d.css">
       <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
