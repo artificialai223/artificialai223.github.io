@@ -6,19 +6,15 @@
          ///////////////////////////////////////////////
          var categories = {
              "Websites": {
-                 "sensors": ["777688716"],
-                 "status": "2"
-             },
-             "Plex": {
-                 "sensors": ["777693990", "777893558"],
+                 "sensors": ["786168166", "786168163", "786168159"],
                  "status": "2"
              },
              "Services": {
-                 "sensors": ["777864590", "777864593", "777864591", "777899388"],
+                 "sensors": ["786034747"],
                  "status": "2"
              }
          }
-         var apiKey = "INSERT-APIKEYHERE"
+         var apiKey = "u945133-593802ed89d590b657f53eae"
          ///////////////////////////////////////////////
          // END CONFIG 
          ///////////////////////////////////////////////
@@ -228,13 +224,6 @@ function jsonUptimeRobotApi(data) {
             if (monitor.status == "8" || monitor.status == "9") {
               operational = false;
               categories.Websites.status = 1;
-          }
-        }
-        if (categories.Plex.sensors.indexOf(monitor.id) >= 0) {
-            monitor.category = "Plex";
-            if (monitor.status == "8" || monitor.status == "9") {
-              operational = false;
-              categories.Plex.status = 1;
           }
         }
         if (categories.Services.sensors.indexOf(monitor.id) >= 0) {
